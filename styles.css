@@ -4,10 +4,7 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
 body {
   font-family: Roboto, Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: red;
-  padding-left: env(safe-area-inset-left);
-  padding-bottom: env(safe-area-inset-bottom);
-  padding-right: env(safe-area-inset-right);
+  background-color: black;
 }
 
 .app__layout {
