@@ -10,10 +10,10 @@ html {
 }
 
 body {
-  height: calc(100% + env(safe-area-inset-top));
+  position: fixed;
   font-family: Roboto, Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
+  background-color: white;
   overflow: hidden;
 }
 
