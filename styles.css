@@ -10,18 +10,19 @@ html {
 }
 
 body {
-  min-height: calc(100% + env(safe-area-inset-top));
+  height: calc(100% + env(safe-area-inset-top));
   font-family: Roboto, Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
+  background-color: white;
+  overflow: hidden;
 }
 
 .app__layout {
   position: absolute;
-  width: 100%;
+  width: calc(100% + env(safe-area-inset-top));
   height: 100%;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
 }
 
 .app__header {
