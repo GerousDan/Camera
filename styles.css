@@ -22,7 +22,7 @@ body {
   width: 100%;
   height: calc(100% + env(safe-area-inset-top));
   overflow: hidden;
-  background-color: black;
+  background-color: white;
 }
 
 .app__header {
