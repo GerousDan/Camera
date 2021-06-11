@@ -11,9 +11,10 @@ html {
 
 body {
   position: fixed;
+  height: calc(100% + env(safe-area-inset-top));
   font-family: Roboto, Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: white;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -22,7 +23,7 @@ body {
   width: 100%;
   height: calc(100% + env(safe-area-inset-top));
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
 .app__header {
